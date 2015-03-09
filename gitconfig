@@ -12,9 +12,8 @@
   remote = yellow
 
 [core]
-  editor = subl -n -w
+  editor = '/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl' -n -w
   pager = less -FRSX
-  mergeoptions = --no-edit
 
 [alias]
   co = checkout
@@ -46,6 +45,10 @@
 
 [push]
 	default = simple
+
 [user]
 	email = alcordani@gmail.com
 	name = Alexandre Cordani
+
+[branch "master"]
+  mergeoptions = --no-edit
