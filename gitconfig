@@ -46,3 +46,6 @@
 
 [push]
 	default = simple
+[user]
+	email = alcordani@gmail.com
+	name = Alexandre Cordani
